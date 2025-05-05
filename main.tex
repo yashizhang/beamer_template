@@ -1,0 +1,24 @@
+\documentclass{beamer}
+\usetheme{metropolis}           % Use metropolis theme
+\usepackage{preamble}
+
+\title{TITLE HERE}
+\author{Ya Shi Zhang}
+\institute{INSTITUTE HERE}
+\date{\today}
+\begin{document}
+\maketitle
+
+
+\section{First Section}
+\begin{frame}{First Frame}
+Text goes here. I'm citing \citet{einstein}.
+\end{frame}
+
+\begin{frame}{Citations}
+\bibliographystyle{plainnat} % We choose the "plain" reference style
+\bibliography{ref} % Entries are in the refs.bib file
+\end{frame}
+
+
+\end{document}
